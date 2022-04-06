@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Get Your &lt;head&gt; Straight Hello</title>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+  <title>Get Your &lt;head&gt; Straight</title>
   
-  <script src="script/jquery-3.6.0.min.js" defer></script>
+  <script src="script/jquery-3.6.0.min.js" async></script>
   
   <input type="hidden" id="csrf_token" value="ZGlkIHlvdSBmaW5kIG1lPwo=" />
  
-  <link rel="stylesheet" href="styles/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="styles/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" defer> -->
 
-  <link rel="stylesheet" href="styles/index.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <link rel="stylesheet" href="styles/index.css" defer/>
+  
   <script>
     // Slow JS
     function wait(ms) {
@@ -34,7 +35,14 @@
     antiflicker();
   </script>
   
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="120x120" href="imgs/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
+  <link rel="manifest" href="imgs/site.webmanifest">
+  <link rel="mask-icon" href="imgs/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  
 </head>
 <body>
   <header>
@@ -142,26 +150,26 @@
 
   <main>
     <section class="hero">
-      <img data-src="banner.png" alt="" class="hero__img">
+      <img src="banner.png" data-src="banner.png" alt="" class="hero__img" media="(width:100%)">
     </section>
-    <script src="script/hero.js"></script>
+    <script src="script/hero.js" defer></script>
 
     <section class="gridbox">
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
@@ -172,57 +180,57 @@
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article><article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article><article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article><article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article><article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <img data-src="image-tree.jpg" alt="" class="card__img">
+          <img data-src="image-tree.jpg" src="image-tree.jpg" media="(width:100%)" alt="" class="card__img">
           <hr>
         </section>
       </article>

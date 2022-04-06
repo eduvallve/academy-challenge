@@ -35,7 +35,7 @@
     antiflicker();
   </script>
   
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
   <link rel="apple-touch-icon" sizes="120x120" href="imgs/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
@@ -151,7 +151,7 @@
 
   <main>
     <section class="hero">
-      <img src="banner.avif" data-src="banner.avif" alt="" class="hero__img" media="(width:100%)">
+      <img srcset="banner-480.avif 480w, banner.avif 880w" sizes="(max-width:600px) 480px, 800px" src="banner.avif" width="100" height="" alt="" class="hero__img" media="(width:100%)">
     </section>
     <script src="script/hero.js" defer></script>
 
@@ -179,7 +179,7 @@
       </article>
       <article class="gridbox__item">
         <section class="card">
-          <iframe class="card__img" src="https://www.youtube.com/embed/YadeD-_Cm9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen fetchpriority="low"></iframe>
+          <iframe class="card__img" src="https://www.youtube.com/embed/YadeD-_Cm9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen fetchpriority="low" defer></iframe>
         </section>
       </article>
       <article class="gridbox__item">
